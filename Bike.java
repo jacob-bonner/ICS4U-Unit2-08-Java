@@ -35,7 +35,7 @@ public class Bike extends Vehicle {
     // Calculating and returning cadence
     //   Equation of speed over 8.3 was derived by using average
     //   specifications of a bicycle to determine average multiplier
-    cadence = getSpeed() * 8.3f;
+    this.cadence = getSpeed() * 8.3f;
     return cadence;
   }
 
