@@ -11,7 +11,6 @@ public class Vehicle {
   String colour;
   private float speed;
   private int maximumSpeed;
-  int tireNumber;
 
   /**
    * Setting field values with a constructor.
